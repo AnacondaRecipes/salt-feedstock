@@ -4,6 +4,7 @@ import sys
 ROOT_DIR = sys.exec_prefix
 
 # Copied from salt source: salt/syspaths.py
+SHARE_DIR = os.path.join(ROOT_DIR, 'usr', 'share', 'salt')
 CONFIG_DIR = os.path.join(ROOT_DIR, 'etc', 'salt')
 CACHE_DIR = os.path.join(ROOT_DIR, 'var', 'cache', 'salt')
 SOCK_DIR = os.path.join(ROOT_DIR, 'var', 'run', 'salt')
@@ -17,3 +18,4 @@ SPM_FORMULA_PATH = os.path.join(SRV_ROOT_DIR, 'spm', 'salt')
 SPM_PILLAR_PATH = os.path.join(SRV_ROOT_DIR, 'spm', 'pillar')
 SPM_REACTOR_PATH = os.path.join(SRV_ROOT_DIR, 'spm', 'reactor')
 BASE_THORIUM_ROOTS_DIR = os.path.join(SRV_ROOT_DIR, 'thorium')
+HOME_DIR = None
