@@ -10,7 +10,7 @@ source:
   sha256: dcf30d2e8eae105a72977c51cfc253fbc4dc28b2f71277fdce9d35de1eb63e15
 
   patches:
-    - setup.py.patch  # [win]
+    - 0001-remove-win-dll-download.patch
 
 build:
   number: 0
