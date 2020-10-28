@@ -1,4 +1,4 @@
-{% set version = "2018.3.3" %}
+{% set version = "3002" %}
 
 package:
   name: salt
@@ -7,7 +7,7 @@ package:
 source:
   fn: salt-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/s/salt/salt-{{ version }}.tar.gz
-  sha256: dcf30d2e8eae105a72977c51cfc253fbc4dc28b2f71277fdce9d35de1eb63e15
+  sha256: b622c9de9fde571db96bfd659a183bea553dd26e71cac85659387e937221aae6
 
   patches:
     - 0001-remove-win-dll-download.patch
